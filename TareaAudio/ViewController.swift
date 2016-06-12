@@ -6,6 +6,12 @@
 //  Copyright © 2016 Gonzalo Linares N. All rights reserved.
 //
 
+/*
+ 
+ Please use iphone 5S to simulate this project. Thanks.
+ 
+*/
+
 import UIKit
 import AVFoundation
 
