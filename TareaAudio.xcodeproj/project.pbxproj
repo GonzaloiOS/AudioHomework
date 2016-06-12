@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7E9FD91D0DD29A0066856B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E9FD81D0DD29A0066856B /* AppDelegate.swift */; };
+		0B7E9FDB1D0DD29A0066856B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E9FDA1D0DD29A0066856B /* ViewController.swift */; };
+		0B7E9FDE1D0DD29A0066856B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FDC1D0DD29A0066856B /* Main.storyboard */; };
+		0B7E9FE01D0DD29A0066856B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FDF1D0DD29A0066856B /* Assets.xcassets */; };
+		0B7E9FE31D0DD29A0066856B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FE11D0DD29A0066856B /* LaunchScreen.storyboard */; };
+		0B7E9FEB1D0DD6FB0066856B /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7E9FEA1D0DD6FB0066856B /* SongsTableViewCell.swift */; };
+		0B7E9FF31D0DE2E50066856B /* Dear_You-Higurashi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FEE1D0DE2E50066856B /* Dear_You-Higurashi.mp3 */; };
+		0B7E9FF41D0DE2E50066856B /* One-Metallica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FEF1D0DE2E50066856B /* One-Metallica.mp3 */; };
+		0B7E9FF51D0DE2E50066856B /* Phantom_Opera-Nightwish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FF01D0DE2E50066856B /* Phantom_Opera-Nightwish.mp3 */; };
+		0B7E9FF61D0DE2E50066856B /* Stairway_To_Heaven-Led.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FF11D0DE2E50066856B /* Stairway_To_Heaven-Led.mp3 */; };
+		0B7E9FFD1D0DE2F20066856B /* dearyou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FF81D0DE2F20066856B /* dearyou.jpg */; };
+		0B7E9FFE1D0DE2F20066856B /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FF91D0DE2F20066856B /* one.jpg */; };
+		0B7E9FFF1D0DE2F20066856B /* po.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FFA1D0DE2F20066856B /* po.jpg */; };
+		0B7EA0001D0DE2F20066856B /* queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FFB1D0DE2F20066856B /* queen.jpg */; };
+		0B7EA0011D0DE2F20066856B /* stairway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B7E9FFC1D0DE2F20066856B /* stairway.jpg */; };
+		0B7EA0031D0DF0900066856B /* We_Will_Rock_You-Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B7EA0021D0DF0900066856B /* We_Will_Rock_You-Queen.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B7E9FD51D0DD2990066856B /* TareaAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7E9FD81D0DD29A0066856B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B7E9FDA1D0DD29A0066856B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B7E9FDD1D0DD29A0066856B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B7E9FDF1D0DD29A0066856B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B7E9FE21D0DD29A0066856B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B7E9FE41D0DD29A0066856B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7E9FEA1D0DD6FB0066856B /* SongsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
+		0B7E9FEE1D0DE2E50066856B /* Dear_You-Higurashi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dear_You-Higurashi.mp3"; sourceTree = "<group>"; };
+		0B7E9FEF1D0DE2E50066856B /* One-Metallica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One-Metallica.mp3"; sourceTree = "<group>"; };
+		0B7E9FF01D0DE2E50066856B /* Phantom_Opera-Nightwish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Phantom_Opera-Nightwish.mp3"; sourceTree = "<group>"; };
+		0B7E9FF11D0DE2E50066856B /* Stairway_To_Heaven-Led.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stairway_To_Heaven-Led.mp3"; sourceTree = "<group>"; };
+		0B7E9FF81D0DE2F20066856B /* dearyou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dearyou.jpg; sourceTree = "<group>"; };
+		0B7E9FF91D0DE2F20066856B /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		0B7E9FFA1D0DE2F20066856B /* po.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = po.jpg; sourceTree = "<group>"; };
+		0B7E9FFB1D0DE2F20066856B /* queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queen.jpg; sourceTree = "<group>"; };
+		0B7E9FFC1D0DE2F20066856B /* stairway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stairway.jpg; sourceTree = "<group>"; };
+		0B7EA0021D0DF0900066856B /* We_Will_Rock_You-Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We_Will_Rock_You-Queen.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B7E9FD21D0DD2990066856B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B7E9FCC1D0DD2990066856B = {
+			isa = PBXGroup;
+			children = (
+				0B7E9FD71D0DD2990066856B /* TareaAudio */,
+				0B7E9FD61D0DD2990066856B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B7E9FD61D0DD2990066856B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B7E9FD51D0DD2990066856B /* TareaAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B7E9FD71D0DD2990066856B /* TareaAudio */ = {
+			isa = PBXGroup;
+			children = (
+				0B7E9FED1D0DE27C0066856B /* songs */,
+				0B7E9FEC1D0DE2730066856B /* images */,
+				0B7E9FD81D0DD29A0066856B /* AppDelegate.swift */,
+				0B7E9FDA1D0DD29A0066856B /* ViewController.swift */,
+				0B7E9FEA1D0DD6FB0066856B /* SongsTableViewCell.swift */,
+				0B7E9FDC1D0DD29A0066856B /* Main.storyboard */,
+				0B7E9FDF1D0DD29A0066856B /* Assets.xcassets */,
+				0B7E9FE11D0DD29A0066856B /* LaunchScreen.storyboard */,
+				0B7E9FE41D0DD29A0066856B /* Info.plist */,
+			);
+			path = TareaAudio;
+			sourceTree = "<group>";
+		};
+		0B7E9FEC1D0DE2730066856B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0B7E9FF91D0DE2F20066856B /* one.jpg */,
+				0B7E9FFA1D0DE2F20066856B /* po.jpg */,
+				0B7E9FFC1D0DE2F20066856B /* stairway.jpg */,
+				0B7E9FFB1D0DE2F20066856B /* queen.jpg */,
+				0B7E9FF81D0DE2F20066856B /* dearyou.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		0B7E9FED1D0DE27C0066856B /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				0B7E9FEF1D0DE2E50066856B /* One-Metallica.mp3 */,
+				0B7E9FF01D0DE2E50066856B /* Phantom_Opera-Nightwish.mp3 */,
+				0B7E9FF11D0DE2E50066856B /* Stairway_To_Heaven-Led.mp3 */,
+				0B7EA0021D0DF0900066856B /* We_Will_Rock_You-Queen.mp3 */,
+				0B7E9FEE1D0DE2E50066856B /* Dear_You-Higurashi.mp3 */,
+			);
+			name = songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B7E9FD41D0DD2990066856B /* TareaAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7E9FE71D0DD29A0066856B /* Build configuration list for PBXNativeTarget "TareaAudio" */;
+			buildPhases = (
+				0B7E9FD11D0DD2990066856B /* Sources */,
+				0B7E9FD21D0DD2990066856B /* Frameworks */,
+				0B7E9FD31D0DD2990066856B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TareaAudio;
+			productName = TareaAudio;
+			productReference = 0B7E9FD51D0DD2990066856B /* TareaAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B7E9FCD1D0DD2990066856B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gonzalo Linares N";
+				TargetAttributes = {
+					0B7E9FD41D0DD2990066856B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B7E9FD01D0DD2990066856B /* Build configuration list for PBXProject "TareaAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B7E9FCC1D0DD2990066856B;
+			productRefGroup = 0B7E9FD61D0DD2990066856B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B7E9FD41D0DD2990066856B /* TareaAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7E9FD31D0DD2990066856B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7EA0011D0DE2F20066856B /* stairway.jpg in Resources */,
+				0B7E9FE31D0DD29A0066856B /* LaunchScreen.storyboard in Resources */,
+				0B7EA0001D0DE2F20066856B /* queen.jpg in Resources */,
+				0B7E9FFD1D0DE2F20066856B /* dearyou.jpg in Resources */,
+				0B7E9FF61D0DE2E50066856B /* Stairway_To_Heaven-Led.mp3 in Resources */,
+				0B7E9FFF1D0DE2F20066856B /* po.jpg in Resources */,
+				0B7E9FF31D0DE2E50066856B /* Dear_You-Higurashi.mp3 in Resources */,
+				0B7E9FF51D0DE2E50066856B /* Phantom_Opera-Nightwish.mp3 in Resources */,
+				0B7E9FFE1D0DE2F20066856B /* one.jpg in Resources */,
+				0B7E9FE01D0DD29A0066856B /* Assets.xcassets in Resources */,
+				0B7EA0031D0DF0900066856B /* We_Will_Rock_You-Queen.mp3 in Resources */,
+				0B7E9FF41D0DE2E50066856B /* One-Metallica.mp3 in Resources */,
+				0B7E9FDE1D0DD29A0066856B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7E9FD11D0DD2990066856B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7E9FEB1D0DD6FB0066856B /* SongsTableViewCell.swift in Sources */,
+				0B7E9FDB1D0DD29A0066856B /* ViewController.swift in Sources */,
+				0B7E9FD91D0DD29A0066856B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B7E9FDC1D0DD29A0066856B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B7E9FDD1D0DD29A0066856B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B7E9FE11D0DD29A0066856B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B7E9FE21D0DD29A0066856B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B7E9FE51D0DD29A0066856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B7E9FE61D0DD29A0066856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B7E9FE81D0DD29A0066856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TareaAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TareaAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B7E9FE91D0DD29A0066856B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TareaAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TareaAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7E9FD01D0DD2990066856B /* Build configuration list for PBXProject "TareaAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7E9FE51D0DD29A0066856B /* Debug */,
+				0B7E9FE61D0DD29A0066856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7E9FE71D0DD29A0066856B /* Build configuration list for PBXNativeTarget "TareaAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7E9FE81D0DD29A0066856B /* Debug */,
+				0B7E9FE91D0DD29A0066856B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B7E9FCD1D0DD2990066856B /* Project object */;
+}
