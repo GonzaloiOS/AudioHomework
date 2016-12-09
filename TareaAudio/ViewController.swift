@@ -22,10 +22,10 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     @IBOutlet weak var tableView: UITableView!
     
-    private var songs:[String] = []
-    private var imagesSongs:[String] = []
+    fileprivate var songs:[String] = []
+    fileprivate var imagesSongs:[String] = []
     
-    private var player:AVAudioPlayer!
+    fileprivate var player:AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +50,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         self.songCoverImageView.image = nil
         self.songCoverImageView.layer.cornerRadius = self.songCoverImageView.frame.size.width/2
         self.songCoverImageView.clipsToBounds = true
-        self.songCoverImageView.contentMode = UIViewContentMode.ScaleAspectFill
+        self.songCoverImageView.contentMode = UIViewContentMode.scaleAspectFill
     }
 
     override func didReceiveMemoryWarning() {
@@ -60,14 +60,14 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     //TableView methods
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return self.songs.count
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("SongsTableViewCell", forIndexPath: indexPath) as! SongsTableViewCell
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "SongsTableViewCell", for: indexPath) as! SongsTableViewCell
         
         cell.songLabel.text = self.songs[indexPath.row]
         
@@ -75,17 +75,17 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let currentRow = indexPath.row
         
-        let soundURL = NSBundle.mainBundle().URLForResource(self.songs[currentRow], withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: self.songs[currentRow], withExtension: "mp3")
         
         var flat:Bool = false
         
         do{
             
-            try self.player = AVAudioPlayer(contentsOfURL: soundURL!)
+            try self.player = AVAudioPlayer(contentsOf: soundURL!)
             flat = true
             
         }catch{
@@ -110,47 +110,47 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     //Buttons actions
     
-    @IBAction func playButton(sender: UIButton) {
+    @IBAction func playButton(_ sender: UIButton) {
         
-        if !self.player.playing{
+        if !self.player.isPlaying{
             
             self.player.play()
         }
     }
     
-    @IBAction func pauseButton(sender: UIButton) {
+    @IBAction func pauseButton(_ sender: UIButton) {
         
-        if self.player.playing{
+        if self.player.isPlaying{
             
             self.player.pause()
         }
         
     }
     
-    @IBAction func stopButton(sender: UIButton) {
+    @IBAction func stopButton(_ sender: UIButton) {
         
-        if self.player.playing{
+        if self.player.isPlaying{
             
             self.player.stop()
             self.player.currentTime = 0.0
         }
     }
     
-    @IBAction func shuffleButton(sender: AnyObject) {
+    @IBAction func shuffleButton(_ sender: AnyObject) {
         
         let random:Int = Int(arc4random_uniform(5))
         print(random)
         
-        self.tableView(self.tableView, didSelectRowAtIndexPath: NSIndexPath.init(forRow: random, inSection: 1))
+        self.tableView(self.tableView, didSelectRowAt: IndexPath.init(row: random, section: 1))
     }
     
     //slider action
     
-    @IBAction func sliderValueChanged(sender: UISlider) {
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
         
         print(sender.value)
         
-        if self.player.playing{
+        if self.player.isPlaying{
             
             self.player.volume = sender.value
         }
